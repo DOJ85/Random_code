@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* ============== H E A D E R ==============*/
+
+header {
+  background-image: url("../img/headerimg.jpg");
+  height: 95vh;
+  background-position: 20% 20%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -webkit-background-size: cover;
+ border-bottom: 4px solid black;
+ box-shadow: 0 0 15px black;
+ margin-bottom: 50px;
+}
+
+/* ============== N A V B A R  ==============*/
+nav {
+  background-color: rgba(35, 35, 35, 0.75);
+  border-bottom: 5px solid black;
+  box-shadow: 0 0 15px black;
+}
+.navbar div ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+.navbar div ul li a {
+  font-weight: 300;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+  line-height: 180%;
+  text-align: center;
+  transition: all 1s;
+}
+.navbar div ul li a:hover {
+  color: #ad3a3a;
+  transition: all 1s;
+  text-shadow: 0 0 15px black;
+}
+
+/* ============== T I T R E  ==============*/
+.titre div h1 {
+  color: #eaeaea;
+  text-align: center;
+  margin-top: 25%;
+  border: 3px solid #eaeaea;
+  border-radius: 2px;
+  padding: 25px;
+  background-color: rgba(35, 35, 35, 0.6);
+  box-shadow: 0 0 15px black;
+  text-shadow: 0 0 15px black;
+}
+
+/* ============== M A P  ==============*/
+#map {
+  height: 60vh;
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 0 0 15px black;
+}
