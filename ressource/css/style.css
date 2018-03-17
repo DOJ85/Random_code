@@ -2,24 +2,20 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: 100%;
+}
 body {
   font-family: "Nunito", sans-serif;
   background-color: #282c3a;
-  overflow-y: scroll;
-  overflow-x: hidden;
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  perspective: 1px;
-  transform-style: preserve-3d;
 }
 
 /* ============== H E A D E R ==============*/
 
 header {
-  box-sizing: border-box;
-
-
   background-image: url("../img/header.png");
   height: 95vh;
   background-position: 20% 20%;
@@ -33,7 +29,6 @@ header {
  box-shadow: 0 0 15px black;
  margin-bottom: 70px;
 }
-
 
 /* ============== N A V B A R  ==============*/
 nav {
@@ -83,3 +78,26 @@ nav {
   margin-bottom: 70px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*yfd*/
