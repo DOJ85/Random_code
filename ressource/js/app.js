@@ -12,13 +12,13 @@ function initMap() {
     {
         "stylers": [
             {
-                "hue": "#ff1a00"
+                "hue": "#010063"
             },
             {
                 "invert_lightness": true
             },
             {
-                "saturation": -100
+                "saturation": -80
             },
             {
                 "lightness": 33
@@ -40,3 +40,6 @@ function initMap() {
 ]
   });
 }
+$(document).ready(function(){
+    $('header').parallax("center", 0, 0.5, true);
+});
